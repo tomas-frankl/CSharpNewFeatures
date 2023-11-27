@@ -51,6 +51,14 @@ internal class Program
         T43_RequiredFields.Test.Run();
         T44_AccessModifiers.Test.Run();
 
+        T50_PrimaryConstructors.Test.Run();
+        T51_CollectionExpressions.Test.Run();
+        T52_ReadOnlyReference.Test.Run();
+        T53_DefaultLambdaParams1.Test.Run();
+        T54_DefaultLambdaParams2.Test.Run();
+        T55_LambdaWithParamArray.Test.Run();
+        T56_UsingAlias.Test.Run();
+
         Console.WriteLine("That's all");
     }
 }
