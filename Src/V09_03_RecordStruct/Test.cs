@@ -10,7 +10,7 @@ internal class Test
 {
     public static void Run()
     {
-        var c01 = new PersonAsStruct("a", "b") {Age = 1};
+        var c01 = new PersonAsStruct("a", "b") { Age = 1 };
         var c02 = new PersonAsStruct("a", "b") { Age = 1 };
 
         if (c01 == c02)

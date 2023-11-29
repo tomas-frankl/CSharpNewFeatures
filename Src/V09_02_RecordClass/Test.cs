@@ -11,7 +11,7 @@ internal class Test
 {
     public static void Run()
     {
-        var c01 = new PersonAsClass("a", "b") {Age = 1};
+        var c01 = new PersonAsClass("a", "b") { Age = 1 };
         var c02 = new PersonAsClass("a", "b") { Age = 1 };
 
         if (c01 == c02) //IEquatable is implemented by default
